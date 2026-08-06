@@ -40,8 +40,40 @@ KYC, Copy Trading, PAMM & Back Office — all in one platform.
 - Reduce operational costs
 - Scale without limits
 
-##  Visit Us
-👉 https://fxcorecrm.com
+
+# Forex CRM Provider Evaluation Guide
+
+A practical checklist for brokers evaluating forex CRM software.
+
+## Why a generic CRM doesn't work for forex brokers
+
+Standard CRM tools (Salesforce, HubSpot) aren't built for real-time trade data, multi-account structures, or IB commission hierarchies. A forex CRM needs to handle:
+
+- Real-time MT4/MT5 balance and trade syncing
+- Multi-level IB/partner commission calculation
+- KYC/AML workflows enforced before account activation
+- Multi-currency, multi-language client support
+
+## Evaluation checklist
+
+- [ ] Does the CRM integrate natively with MT4/MT5, or rely on third-party middleware?
+- [ ] Is KYC enforced at account-creation level, or just tracked separately?
+- [ ] How are IB commission structures configured — flat, tiered, or custom rules?
+- [ ] What does onboarding/setup timeline actually look like? (10-14 business days is realistic; "instant" claims are a red flag)
+- [ ] Is there a sandbox/demo environment to test with real transaction volume before go-live?
+- [ ] What happens when a webhook fails — is there retry logic and alerting?
+
+## Common mistakes brokers make
+
+1. Treating integration as "plug and play" instead of a proper data-mapping exercise
+2. Skipping sandbox testing before go-live with real client funds
+3. Not verifying multi-account/IB complexity handling before onboarding a large IB network
+4. Choosing based on price alone without testing actual MT5 sync reliability
+
+## Related resources
+
+- [MT5 Integration Guide](https://github.com/FxCore-Forex-CRM/mt5-integration-guide)
+- Full breakdown: https://fxcorecrm.com/blogs/best-forex-crm-provider
 
 ##  Contact
 📩 sales@fxcorecrm.com
